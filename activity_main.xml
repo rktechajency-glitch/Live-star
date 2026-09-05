@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#0E0E12" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="LIVE STAR" android:textColor="#FFFFFF" android:textSize="30sp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="70dp"/>
+<TextView android:text="Live streaming • Chat • Gifts • Coins" android:textColor="#BBBBBB" android:textSize="15sp" android:gravity="center" android:layout_width="match_parent" android:layout_height="45dp"/>
+<Button android:id="@+id/loginBtn" android:text="Login / Register" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/liveBtn" android:text="🔴 Live Rooms" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/goLiveBtn" android:text="🎥 Go Live" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/giftsBtn" android:text="🎁 Gifts & Coins" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/walletBtn" android:text="🪙 Wallet & Withdrawal" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/hostBtn" android:text="👑 Host Dashboard" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/agencyBtn" android:text="🏢 Agency Dashboard" android:layout_width="match_parent" android:layout_height="55dp"/>
+<Button android:id="@+id/profileBtn" android:text="👤 Profile & Settings" android:layout_width="match_parent" android:layout_height="55dp"/>
+<TextView android:text="Prototype: live video/payment integrations require backend and service credentials." android:textColor="#888888" android:textSize="12sp" android:paddingTop="24dp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
